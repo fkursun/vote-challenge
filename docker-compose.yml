@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  frontend:
+    build: ./
+    command: ["npm", "start"]
+    volumes:
+      - ./:/app
+      - node-modules:/app/node_modules
+    ports:
+      - "3000:3000"
+    stdin_open: true
+
+volumes:
+  node-modules:

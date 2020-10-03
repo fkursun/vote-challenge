@@ -1,0 +1,156 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0.25rem;
+  cursor: pointer;
+  position: relative;
+  border-radius: 6px;
+  &:hover {
+    background-color: #70707020;
+  }
+}
+.card-vote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem;
+  background-color: #ddd;
+  border-radius: 6px;
+  border: 1px solid #808080;
+  margin-right: 0.5rem;
+  & > h2 {
+    margin-top: 0px;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  height: 90px;
+}
+
+.vote-wrapper {
+  display: flex;
+  & > button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    color: #707070;
+    padding: 0;
+    cursor: pointer;
+    &:hover {
+      color: #303030;
+    }
+  }
+}
+
+//submit link
+
+.submit-wrapper {
+  display: flex;
+  padding: 0.75rem 0.25rem;
+  align-items: center;
+  background: #70707020;
+  border: 1px solid #808080;
+  border-radius: 6px;
+  cursor: pointer;
+  & > * {
+    cursor: pointer;
+  }
+  & > h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+
+// addnew
+
+.addnew-wrapper {
+  display: flex;
+  flex-direction: column;
+  & > span {
+    font-weight: 700;
+    cursor: pointer;
+  }
+  & > button {
+    align-self: flex-end;
+    &:hover {
+      background-color: #000000cc;
+    }
+  }
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0.75rem 0;
+  & > input {
+    padding: 7px 5px;
+    width: 300px;
+  }
+  & > span {
+    padding: 0 0.25rem;
+  }
+}
+
+.button {
+  border-radius: 25px;
+  border: none;
+  background: #000;
+  color: white;
+  padding: 1rem 0;
+  width: 100px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  background: #000000aa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 250px;
+  background-color: #eee;
+  & > div {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.remove-link {
+  background: black;
+  color: white;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0px 0.5rem;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
