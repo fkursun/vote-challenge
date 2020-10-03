@@ -5,8 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 yarn install && yarn start
 
 # To run docker
-yarn install
-docker-compose build
+yarn install__
+docker-compose build__
 docker-compose up
 
 ## Available Scripts
